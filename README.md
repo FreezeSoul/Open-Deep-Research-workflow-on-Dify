@@ -5,6 +5,12 @@
 ## 📖 概述
 本工作流基于Dify平台构建，复现了Deep Research的核心功能，通过整合多源检索（本地知识库+网络搜索）与多模型协作，可在5分钟内生成万字级结构化研究报告。系统采用模块化设计，支持灵活替换底层模型与数据源。
 
+## 🏆 收录与引用
+本工作流（原发于本仓库，2025-02-13）已被 **[Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)**（10.7k★ 的 Dify 工作流合集）收录并署名：
+
+- 上游收录条目 `DSL/Deep Researcher On Dify .yml`（[收录提交，2025-02-24](https://github.com/svcvit/Awesome-Dify-Workflow/commit/565ad61a6dcb564a158ddb420a47e058af9468a0)），文件与本仓库版本**字节一致**
+- 上游 README 该条目作者列署名 [@AdamPlatin123](https://github.com/AdamPlatin123)，链接指回本仓库
+
 ## ✨ 核心功能
 - **智能主题解析**  
   使用Gemini 2.0 Flash模型进行多层级主题拆解，支持4个维度深度分析
